@@ -33,6 +33,6 @@ class CityListTest {
         CityList cityList = mockCityList();
         cityList.add(new City("Regina", "Saskatchewan"));
         cityList.delete(new City("Regina", "Saskatchewan"));
-        assertEquals(0, cityList.countCities());
+        assertEquals(1, cityList.countCities());
     }
 }
